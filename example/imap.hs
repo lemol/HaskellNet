@@ -1,3 +1,4 @@
+{-# OPTIONS -fno-warn-missing-signatures #-}
 import System.IO
 import Network.HaskellNet.IMAP
 import qualified Data.ByteString.Char8 as BS

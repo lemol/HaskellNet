@@ -7,7 +7,7 @@ import           Network.Mail.Mime
 import qualified Data.Text as T
 import qualified Data.ByteString as S
 import qualified Data.ByteString.Lazy as B
-import           Control.Monad.Trans (lift, liftIO)
+import           Control.Monad.Trans (lift)
 
 -- | Your settings
 server       = "smtp.test.com"
